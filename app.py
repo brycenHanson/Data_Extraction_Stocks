@@ -13,7 +13,7 @@ st.sidebar.header("User Input")
 
 ticker = st.sidebar.text_input("Enter Stock Ticker" , "AAPL")
 
-start_date = st.sidebar.date_input("Start Date" , pd.to_datetime("2022-01-01")
+start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2022-01-01"))
 
 end_date = st.sidebar.date_input("End Date" , pd.to_datetime("today"))
 
